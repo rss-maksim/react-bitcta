@@ -1,0 +1,79 @@
+@import "../../scss-base/colors";
+
+.crypto-form {
+    background-color: $white-color;
+    border-radius: 2px;
+    width: 360px;
+    height: 240px;
+    padding: 39px 37px 39px 45px;
+    box-sizing: border-box;
+
+    &-input-container {
+        position: relative;
+    }
+
+    &-input-wrapper {
+        border: solid 1px #c8cbd0;
+        border-radius: 3px;
+        box-sizing: border-box;
+        display: flex;
+
+        &.error {
+            border: solid 1px $accent-color;
+        }
+
+        &::before {
+            position: absolute;
+            top: -6px;
+            left: 8px;
+            font-size: 9px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            content: "Cryptocurrency Code";
+            background-color: $white-color;
+            color: rgba(0, 0, 0, 0.3);
+            padding: 0 6px;
+            font-weight: 600;
+        }
+    }
+
+    &-input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 41px;
+        padding: 5px 15px;
+        font-weight: 700;
+        border: 0;
+        display: block;
+    }
+
+    &-not-exist-text {
+        color: $accent-color;
+        font-size: 13px;
+    }
+
+    &-submit-btn {
+        background-color: $accent-color;
+        border: 0;
+        border-radius: 20px;
+        box-sizing: border-box;
+        color: $white-color;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 9px;
+        height: 40px;
+        width: 100%;
+
+        &:hover {
+            background-color: rgba($accent-color, 0.75);
+        }
+    }
+
+    &-terms {
+        margin-top: 39px;
+        color: #b3b4b9;
+        line-height: 17px;
+        font-size: 15px;
+        text-align: center;
+    }
+}

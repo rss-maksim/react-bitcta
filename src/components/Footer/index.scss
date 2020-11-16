@@ -1,0 +1,15 @@
+.footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 116px;
+    width: 100%;
+    padding: 30px 164px 0 164px;
+    letter-spacing: 0.3px;
+
+    &-text {
+        opacity: 0.3;
+        font-size: 12px;
+    }
+}

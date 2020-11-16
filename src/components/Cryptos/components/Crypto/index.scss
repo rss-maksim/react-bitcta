@@ -1,0 +1,37 @@
+@import "../../../../scss-base/colors";
+
+.crypto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 80px;
+    padding: 0 19px 0 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-image: linear-gradient($white-color, rgba($white-color, 0)) 27;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+    &-details {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+    }
+
+    &-name {
+        font-size: 20px;
+    }
+
+    &-cross-icon {
+        cursor: pointer;
+        margin-left: auto;
+
+        &:hover {
+            color: $accent-color;
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+}

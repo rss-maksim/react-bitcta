@@ -1,0 +1,1 @@
+export { DataProvier as default } from './DataProvider'

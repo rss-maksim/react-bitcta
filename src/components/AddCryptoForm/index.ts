@@ -1,0 +1,1 @@
+export { AddCryptoForm as default } from './AddCryptoForm'

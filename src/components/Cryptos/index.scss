@@ -1,0 +1,9 @@
+@import "../../scss-base/colors";
+
+.cryptos {
+    color: $white-color;
+    margin-top: 37px;
+    overflow: auto;
+    max-height: 308px;
+    width: 300px;
+}
